@@ -10,3 +10,4 @@ spring:
 
       properties:
         spring.json.trusted.packages: "*"
+        spring.json.value.default.type: com.techie.inventory_service.event.OrderCreatedEvent
