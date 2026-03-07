@@ -18,7 +18,7 @@ spring:
       properties:
         spring.json.trusted.packages: "*"
         spring.json.use.type.headers: false
-        spring.json.value.default.type: com.techie.inventory_service.event.OrderCreatedEvent
+        spring.json.value.default.type: com.techie.order_service.event.InventoryUpdatedEvent
 
 # spring:
 #   datasource:
