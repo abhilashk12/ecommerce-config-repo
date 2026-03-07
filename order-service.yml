@@ -1,5 +1,5 @@
 custom:
-  message: Hello1
+  message: Hello12
 
 spring:
   kafka:
