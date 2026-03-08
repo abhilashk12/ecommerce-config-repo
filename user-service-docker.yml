@@ -1,5 +1,3 @@
-custom.message=Hello from user11
-
 spring:
   datasource:
     url: jdbc:mysql://mysql:3306/user_db
