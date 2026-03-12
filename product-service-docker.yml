@@ -1,5 +1,5 @@
 custom:
-  message:Hello from git
+  message: Hello from git
 
 spring:
   datasource:
