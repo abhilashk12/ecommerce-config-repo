@@ -5,4 +5,6 @@ spring:
         - id: user-service
           uri: lb://user-service
           predicates:
-            - Path=/users/**
+            - Path=/product-service/**
+          filters:
+            - RewritePath=/product-service/(?<segment>.*), /${segment}
