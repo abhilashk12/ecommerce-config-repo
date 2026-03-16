@@ -5,21 +5,4 @@ spring:
         - id: user-service
           uri: lb://user-service
           predicates:
-            - Path=/auth/**
-                
-        - id: product-service
-          uri: lb://product-service
-          predicates:
-            - Path=/product-service/**
-          filters:
-            - RewritePath=/product-service/(?<segment>.*), /${segment}
-
-        - id: inventory-service
-          uri: lb://inventory-service
-          predicates:
-            - Path=/inventory/**
-
-        - id: order-service
-          uri: lb://order-service
-          predicates:
-            - Path=/orders/**
+            - Path=/users/**
