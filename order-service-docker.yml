@@ -36,7 +36,7 @@ spring:
 resilience4j:
   circuitbreaker:
     instances:
-      myService:
+      order-service:
         slidingWindowSize: 5
         failureRateThreshold: 50
         waitDurationInOpenState: 10s
