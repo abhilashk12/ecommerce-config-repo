@@ -33,6 +33,13 @@ spring:
         spring.json.use.type.headers: false
         spring.json.value.default.type: com.techie.order_service.event.InventoryUpdatedEvent
 
+resilience4j:
+  circuitbreaker:
+    instances:
+      myService:
+        slidingWindowSize: 5
+        failureRateThreshold: 50
+        waitDurationInOpenState: 10s
 # spring:
 #   datasource:
 #     url: jdbc:mysql://localhost:3306/orderdb
