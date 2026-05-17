@@ -29,3 +29,4 @@ spring:
         spring.json.trusted.packages: "*"
         spring.json.use.type.headers: false
         spring.json.value.default.type: com.techie.inventory_service.event.OrderCreatedEvent
+
